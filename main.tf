@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 data "aws_ami" "dev_amazon_linux" {
-  provider    = aws.dev
+#  provider    = aws.dev
   most_recent = true
   owners      = ["amazon"]
 
