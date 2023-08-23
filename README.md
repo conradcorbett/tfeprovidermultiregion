@@ -5,9 +5,9 @@
 
 -tfeprovidermultiregion-us-east-1
 
-Create variable aws_region = us-west-1 in workspace tfeprovidermultiregion-us-west-1
+Create terraform variable aws_region = us-west-1 in workspace tfeprovidermultiregion-us-west-1
 
-Create variable aws_region = us-east-1 in workspace tfeprovidermultiregion-us-east-1
+Create terraform variable aws_region = us-east-1 in workspace tfeprovidermultiregion-us-east-1
 
 Apply variable set with AWS creds to both workspaces, then commit change to repo to kickoff.
 
